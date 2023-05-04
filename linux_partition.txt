@@ -1,0 +1,9 @@
+installing linux :
+ `/`  --> a place thath all programs will go there .
+
+ `/swap`  --> two times more than your RAM space.
+
+ `boot` --> a partition for booting os. (1GB) ssd 
+
+ `/home` --> rest of your space . (the 1TB hard disk) for data .
+

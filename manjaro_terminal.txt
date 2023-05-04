@@ -1,0 +1,3 @@
+- uninstalling programs = sudo pacman -R  [PACKAGENAME]
+
+- installing programs = sudo pacman -S  [PACKAGENAME]

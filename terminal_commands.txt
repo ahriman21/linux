@@ -1,0 +1,195 @@
+linux commands :
+
+* { files }
+- to create file = touch [file name]
+
+- to delete file  = rm [file name]
+
+- to see content of a file  = cat [file name]
+
+- to see hiden files = ls -a
+
+- to write in a file = echo [your text or string] >> [file name]
+
+- to display content of a file slowly and paginated = less [file name]
+
+- to see type of a file = file [file name]
+
+- to move a file = mv [filename] [new address]
+
+- to rename file = mv [file name] [new name]
+
+- to copy a file somewhere else = cp [file name] [new place address]
+
+- to back up a file that you want to overwrite it = cp  -b  [a.txt -> file you want to copy]  
+-- [b.txt -> file you wanna copy to]
+
+- to search a file in your directories using terminal = locate [file name]
+-- this command need to be updated if you wanna search for a new file = sudo updatedb
+
+- a powerful command to search your files in directories = 
+-- find  [directory you want look in]  -iname  [file name you are looking for] 
+
+- to see a file's owner and access permissions = ls -l [file name]
+
+- to see more information we use this option after a command = -l
+
+- to change owner of a file = chown [user] [file name]
+ 
+- type a commadn in terminal and if there was an error write the error in a file = [command]   2>   [filename]
+
+- replace a char in a sentence with  onother char = tr  ['  ']  ['-'] 
+-- ==example==>  hello world -> hello-world
+
+- to add access permission of a file = chmod [file user level, like 'u']+[permission] [file name]
+- to minus accsess permission of file = chmode [file user level ]-[permission] [filename]
+>> note --> file permissions : (x -> execute),  (r -> read), (w -> write)
+>> note --> file user levels : ( u -> owner of the file), (o -> other users of the file), (g -> group's useres of the file), (a -> all users )
+
+-  to see count of a file lines and words and characters = wc [filename]
+
+- to see first few lines of a file  = head [filename]
+
+- to see last few lines of a file = tail [filename]
+
+- to zip a file|compress a file = gzip  [ filename ]
+
+- to unzip a file | to uncopmpress a file = gunzip  [filename]
+
+- another way to zipp a file = zip [what do you wanna name your file after zipping.zip]  [name of your file wanna zip ]
+
+* { directories  }
+- to create directory = mkdir [directory name]
+
+- to delte directory = rmdir  [directory name]
+
+- create directories in hierarchical  structure = mkdir  -p  [ the100/season1/epizode1 ]
+
+- create multiple directories in one directory = mkdir  -p  [ season1  season2  season3  season4 ]
+
+
+-  remove a not-empty directory = rm  -r  [ directory name ]
+
+* { system }
+- to see your terminal history = history
+
+- to repeat a terminal command =  !number_of_command
+
+- to repeat last terminal command = !!
+
+- to change user in terminal = su [username]
+
+- to apply high permissioned commands we use `sudo ` before the command = sudo [rm -r test_dir/]
+
+- to see system logs | to see system errors  = cd /var/log/
+
+- to change linux from Graphical UI to text-mode UI = sudo telinit [3]
+
+- to change linux mode from text-mode  to GUI mode = sudo telinit [5]
+
+- to restart computer = telinit [6]
+
+- to shutdown computer = telinit [0]
+
+- to see what level you are in (GUI or text UI) = runlevel
+
+- to shutdown after `x` minutes
+ (n = the x minutes you want to wait to turn off computer) = shutdown  [x]
+
+- to reboot computer = shutdown -r [x] 
+-- or you can just type = reboot
+
+- how to cancel shutting down the computers = shutdown -c
+
+- to list enviroment variables = env
+
+- to print a specific env-variable = prinvenv [var name]
+
+- to set env-var temporarily = export [VAR NAME = value]
+
+- creating permenent env-var locally (for current user) = 
+-- nano home/.bashrc --> export [VAR = 'value'] --> sourse .bashrc	
+
+- to get information about the program before installing = apt-cache  search  [name]
+-- apt-cache showpkg [name]
+
+- to install a program = apt-get install [name]
+
+- to download a program or package without installing it (only downloading) =
+-- apt-get download [name]
+
+- to remove a program or package without its libraries = apt-get remove [name]
+- to remove a program with its dependensies and libraries = apt-get purge [name]
+
+- how to add repository to package manager =
+-- add-apt-repository ["your link"]
+
+- to saeve your linux pakage manager after adding repository =  apt-get [update]
+
+- to upgrade your installed libraries and os programs = apt-get [upgrade]
+
+- to list your installed softwares on your computer = apt list --installed
+
+- to see all the processes = ps -ef
+
+- to see live processee | to se how much cpu or ram is used = top
+
+- to see how much free memory  you have = free 
+
+- to see uptime of system | to see how long your pc is up = uptime
+
+- to see running processes = jobs
+- to end a process   = killall [process name]
+- to end a process = kill -s SIGTERM [process id]
+- to stop a process = kill -s SIGSTOP [process id]
+- to continue a stopped process = kill -s SIGCONT
+- to send a process to background = bg %[number of process]
+- to send a process to foreground = fg %[number of process]
+- to see calander table = cal
+- to see today's date = date
+
+
+- to link a file  = ln -s [the file you want to link to]   [new file that you want to link]
+-- this means if you run the new file it's going to run the original file that you linked.
+ 
+- add a program path to PATH in envoironment variables = $ PATH=$PATH: [your program's path]
+
+- search in terminal's manual or search in commands = man -k [what you are looking for]
+-- another way to search = apropos [what you are looking for] 
+
+* network 
+- ping some website or IP = ping [IP or domain]
+
+- to download a file from an internet adders = wget [url]
+
+- to see all partitions = cat /etc/fstab
+-- another command = fdisk /dev/sd*
+
+- to see GBT hards = gdisk /dev/sd*
+
+- to format a partition = mkfs -t  [file system type]  [the partition . example : /dev/sda3]
+-- the default filesystem type is ext4
+
+* { user management }
+- to change password of user = passwd [username]
+
+- add user in linux = useradd -m [username]
+
+- add user and join it to x group = useradd -G [group's name, another group name] [new user's username]
+
+- modify user in linux = usermod [- any option]
+
+- change username of an user in linux = usermod -l  [new username]  [old username]
+
+- delete user in linux = userdel [username]
+
+- to see user groups = cat /etc/group
+
+- suspend or lock user for a while = usermod  -L [username]
+- to unlock user = usermod -U [username]
+
+- to see all users' info = cat /etc/passwd
+
+- append user to a group = usermod -a -G [group name]  [username]
+
+- to see all info about a user = id
