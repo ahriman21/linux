@@ -1,20 +1,3 @@
-* related to linux 
-- hal :
-- dbus : 
-- udev : 
-- bootloader in linux :
-- swap :  a aditional  space for  RAM if the memory gets full.
-- all kinds of modes in linux (runlevels): 
-- How does linux install programs and packages through terminal :
-- dpkg :
-- systemd : 
-- block device files : storages with big space like ssd.
-- character device files : storages with low space.
-- where does installed softwares go in linux ?
-
-
-# note : in file informations (`l` means = linked files) , ( `d` means directoris ),  ('c' means character --device fiels), ('b' means block device files)
-
 
 * linux file structure :
 - /bin : directory of basic binraries or a place to save terminal programs, commands and codes.
@@ -52,9 +35,10 @@
 
 **- /var : a direcotory for logs and informations of crashed apps.
 
-- /home : 
+- /home : a directory for current user's data.
 
 
+# note : in file informations (`l` means = linked files) , ( `d` means directoris ),  ('c' means character --device fiels), ('b' means block device files)
 * related to storage devices 
 - GBT :
 - MBR :
