@@ -1,2 +1,2 @@
-# linux-commands
+# linux-tutorial
 linux command cheetsheat
