@@ -23,4 +23,10 @@ example : httpd, nfsd
 > command line interpreter that interprets the command line input and instructs the operating system to perform commands.
 examples : bash, zsh
 
+### linux run levels :
+> there is a range of 0 to 6 runlevels in linux.  
+> runlevel 0 : computer is off | runlevel 1 : system starts with single user mode.  
+> runlevel 3 : system starts with only command line | computer starts with normal GUI  
+> runlevel 6 : computer reboots  
+* to change runlevels : telinit [number]
 
