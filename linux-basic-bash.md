@@ -15,3 +15,15 @@
 ### to see disk info:
 > lsblk
 
+# linux package manager:
+### how to install, remove and update apps and packages in debian distros :
+> apt install [app name]  
+> apt remove [app name]  
+> apt upgrade [app name]
+
+### to remove unused libraries in debian distros:
+> apt autoremove
+
+### to reconfig or config a package or app:
+> dpkg-reconfigure [app name]
+
