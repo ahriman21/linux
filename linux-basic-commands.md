@@ -41,6 +41,6 @@
 # terminal manual :  
 
 ### how to search in terminal commands:  
-> man -k [command you wanna search for]  
+> apropos [command you wanna search for]  
 
 
