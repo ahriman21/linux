@@ -27,3 +27,20 @@
 ### to reconfig or config a package or app:
 > dpkg-reconfigure [app name]
 
+# environment variables :  
+
+### to see environment variables :
+> env
+
+### to see system path:  
+> echo $PATH
+
+### add to system path:
+> PATH=$PATH:/your deisred path
+
+# terminal manual :  
+
+### how to search in terminal commands:  
+> man -k [command you wanna search for]  
+
+
