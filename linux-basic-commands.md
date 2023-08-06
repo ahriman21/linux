@@ -27,6 +27,7 @@
 ### to reconfig or config a package or app:
 > dpkg-reconfigure [app name]
 
+
 # environment variables :  
 
 ### to see environment variables :
@@ -39,16 +40,23 @@
 > PATH=$PATH:/your deisred path
 
 # terminal manual :  
-
 ### how to search in terminal commands:  
 > apropos [command you wanna search for]
 
-# file and directories
 
+# file and directories
 ### how to search in a directory :  
 > find [path] -name "[name of the file you are loogin for]"  
 
 ### search a file that starts with letter i :
-> find [path] -name "i*"  
+> find [path] -name "i*"
+
+# processes :
+### how to see processes with details:
+> ps -aux  
+
+### how to find a specific process:
+> ps -aux | grep [process or program name]
+
 
 
