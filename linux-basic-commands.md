@@ -58,5 +58,9 @@
 ### how to find a specific process:
 > ps -aux | grep [process or program name]
 
+### how to kill a process:
+> kill [process id]
 
+### to see processes that are having most resources:
+> top  
 
