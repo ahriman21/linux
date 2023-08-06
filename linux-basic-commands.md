@@ -41,6 +41,14 @@
 # terminal manual :  
 
 ### how to search in terminal commands:  
-> apropos [command you wanna search for]  
+> apropos [command you wanna search for]
+
+# file and directories
+
+### how to search in a directory :  
+> find [path] -name "[name of the file you are loogin for]"  
+
+### search a file that starts with letter i :
+> find [path] -name "i*"  
 
 
