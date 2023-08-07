@@ -64,3 +64,44 @@
 ### to see processes that are having most resources:
 > top  
 
+# vi text editor
+### to open vi editor 
+> vi filename  
+
+### to go on edit mode 
+> i  
+
+### to go on command mode
+> esc  
+
+
+### to save file
+> press esc  
+> :w  
+
+### to quit
+> press esc  
+> :q  
+
+
+### to quit without saving
+> press esc  
+> :q!  
+
+### to delete a character in command mode  
+> press esc  
+> x  
+
+### to copy a line in command mode
+> press esc
+> yy
+
+### to paste 
+> press esc  
+> p  
+
+
+
+* note : notice the columns before some commands
+
+
