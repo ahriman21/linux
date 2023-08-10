@@ -98,10 +98,18 @@
 
 ### to paste 
 > press esc  
-> p  
-
-
+> p
 
 * note : notice the columns before some commands
 
 
+
+# user manager:
+### create user:  
+> sudo useradd bob
+
+### delete user:
+> sudo userdel bob   
+
+### change password:
+> sudo passwd bob  
