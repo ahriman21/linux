@@ -112,4 +112,6 @@
 > sudo userdel bob   
 
 ### change password:
-> sudo passwd bob  
+> sudo passwd bob
+
+* note : to see information of users ==> cat /etc/passwd
