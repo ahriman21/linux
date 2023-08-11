@@ -115,3 +115,16 @@
 > sudo passwd bob
 
 * note : to see information of users ==> cat /etc/passwd
+
+
+# permissions:
+* r = read | w = write | x = execute
+  
+### how to change owner of a file :
+> chown [new owner] [filename]  
+
+### how to add permission to user section of a file:
+> chmod u+w [filename]  
+
+### how to remove a permission from a file :
+> chmod u-w  
