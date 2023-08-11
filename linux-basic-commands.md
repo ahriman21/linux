@@ -101,9 +101,13 @@
 > press esc  
 > p
 
+### how to search a word in vim:
+> ?word
+
+### undo or ctrl+z in vim :
+> u  
+
 * note : notice the columns before some commands
-
-
 
 # user manager:
 ### create user:  
