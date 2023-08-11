@@ -25,11 +25,12 @@
 > apt autoremove
 
 ### to reconfig or config a package or app:
-> dpkg-reconfigure [app name]
+> dpkg-reconfigure [app name]  
 
+### to install programs locally (when you downloaded the installation file on your computer ):
+> dpkg -i filename.deb  
 
 # environment variables :  
-
 ### to see environment variables :
 > env
 
