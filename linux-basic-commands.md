@@ -133,3 +133,11 @@
 
 ### how to remove a permission from a file :
 > chmod u-w  
+
+
+# network
+### to see a brief information of your network:  
+> ifconfig  
+
+### to see information about connected networks (network manager tool):  
+> nm-tool  
