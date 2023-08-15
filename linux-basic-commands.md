@@ -136,8 +136,9 @@
 
 
 # network
-### to see a brief information of your network:  
+### to see a brief information of your network (ip address and mac adress):  
 > ifconfig  
 
 ### to see information about connected networks (network manager tool):  
-> nm-tool  
+> nm-tool
+
