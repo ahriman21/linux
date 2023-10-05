@@ -188,6 +188,11 @@ linux commands :
 - suspend or lock user for a while = usermod  -L [username]
 - to unlock user = usermod -U [username]
 
+* other
+
+- list open files (when you wanna eject a usb device or a mount point and you encounter with "busy error") = fuser /media/username/files
+
+
 - to see all users' info = cat /etc/passwd
 
 - append user to a group = usermod -a -G [group name]  [username]
