@@ -1,9 +1,9 @@
 installing linux :
- `/`  --> a place thath all programs will go there .
+ `/`  --> a place that all programs will go there .
 
- `/swap`  --> two times more than your RAM space.
+ `/swap`  --> two times more than your RAM space. (allocation at most : 8gb)
 
- `boot` --> a partition for booting os. (1GB) ssd 
+ `boot` --> a partition for booting os. (allocation at most : 1gb)
 
- `/home` --> rest of your space . (the 1TB hard disk) for data .
+ `/home` --> data and information related to user. (allocation depends on user)
 
