@@ -8,10 +8,9 @@
 ### to see memory info :
 > cat /proc/meminfo
 
-### to see cput info :
-> lscpu
-> cat
-> /proc/cpuinfo
+### to see cpu info :
+> lscpu  
+> cat /proc/cpuinfo  
 
 ### to see disk info:
 > lsblk
@@ -42,15 +41,15 @@
 > export PATH="$PATH:/your deisred path"
 
 ### add to system path permanently  
+* open .vashrc and add the path using the following steps, then save and exit the file.  
 > 1. vim .bashrc
 > 2. export PATH="$PATH:/your desired path"
 
-# terminal manual :  
+# terminal search :  
 ### how to search in terminal commands:  
 > apropos [command you wanna search for]
 
 
-# file and directories
 ### how to search in a directory :  
 > find [path] -name "[name of the file you are loogin for]"  
 
@@ -107,10 +106,12 @@
 > p
 
 ### how to search a word in vim:
-> ?word
+* put a question mark at the first and write the word you are looking for :
+> ?[the word you are looking for]
 
-### undo or ctrl+z in vim :
-> u  
+### how to undo in vim :
+> press 'esc'
+> u
 
 * note : notice the columns before some commands
 
