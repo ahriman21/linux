@@ -10,7 +10,8 @@
 
 ### to see cput info :
 > lscpu
-> cat /proc/cpuingo
+> cat
+> /proc/cpuinfo
 
 ### to see disk info:
 > lsblk
@@ -27,7 +28,7 @@
 ### to reconfig or config a package or app:
 > dpkg-reconfigure [app name]  
 
-### to install programs locally (when you downloaded the installation file on your computer ):
+### to install programs locally (when you downloaded a installation file on your computer ):
 > dpkg -i filename.deb  
 
 # environment variables :  
@@ -37,8 +38,12 @@
 ### to see system path:  
 > echo $PATH
 
-### add to system path:
-> PATH=$PATH:/your deisred path
+### add to system path temporarily:
+> export PATH="$PATH:/your deisred path"
+
+### add to system path permanently  
+> 1. vim .bashrc
+> 2. export PATH="$PATH:/your desired path"
 
 # terminal manual :  
 ### how to search in terminal commands:  
@@ -62,7 +67,7 @@
 ### how to kill a process:
 > kill [process id]
 
-### to see processes that are having most resources:
+### to see processes that are using most resources:
 > top  
 
 # vi text editor
