@@ -69,9 +69,9 @@
 ### to see processes that are using most resources:
 > top  
 
-# vi text editor
+# vim text editor
 ### to open vi editor 
-> vi filename  
+> vim filename  
 
 ### to go on edit mode 
 > i  
