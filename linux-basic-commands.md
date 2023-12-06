@@ -129,7 +129,9 @@
 
 
 # permissions:
-* r = read | w = write | x = execute
+* r = read
+* w = write
+* x = execute
   
 ### how to change owner of a file :
 > chown [new owner] [filename]  
@@ -144,7 +146,7 @@
 # network
 ### to see a brief information of your network (ip address and mac adress):  
 > ifconfig  
-
-### to see information about connected networks (network manager tool):  
-> nm-tool
+ disable or enable a network interface :
+> ifconfig [interface name] up
+> ifconfig [interface name] down
 
